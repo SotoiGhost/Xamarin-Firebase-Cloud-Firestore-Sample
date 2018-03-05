@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFirestoreSample", "CloudFirestoreSample\CloudFirestoreSample.csproj", "{4EEC418A-6D67-4679-A150-BBED44CD0CF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Firebase.CloudFirestore", "..\..\source\Firebase.CloudFirestore\Firebase.CloudFirestore.csproj", "{07B73E52-5385-4A06-BF48-8E27A4DF8D88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -19,5 +21,13 @@ Global
 		{4EEC418A-6D67-4679-A150-BBED44CD0CF1}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{4EEC418A-6D67-4679-A150-BBED44CD0CF1}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{4EEC418A-6D67-4679-A150-BBED44CD0CF1}.Debug|iPhone.Build.0 = Debug|iPhone
+		{07B73E52-5385-4A06-BF48-8E27A4DF8D88}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{07B73E52-5385-4A06-BF48-8E27A4DF8D88}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{07B73E52-5385-4A06-BF48-8E27A4DF8D88}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{07B73E52-5385-4A06-BF48-8E27A4DF8D88}.Release|iPhone.Build.0 = Release|Any CPU
+		{07B73E52-5385-4A06-BF48-8E27A4DF8D88}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{07B73E52-5385-4A06-BF48-8E27A4DF8D88}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{07B73E52-5385-4A06-BF48-8E27A4DF8D88}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{07B73E52-5385-4A06-BF48-8E27A4DF8D88}.Debug|iPhone.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal

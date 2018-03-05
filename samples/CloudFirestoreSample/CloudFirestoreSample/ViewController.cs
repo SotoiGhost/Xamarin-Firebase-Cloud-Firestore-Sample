@@ -32,6 +32,8 @@ namespace CloudFirestoreSample {
 
 		async Task TestFirestore ()
 		{
+			Console.WriteLine ("Hey!");
+
 			var user = await Auth.DefaultInstance.SignInAnonymouslyAsync ();
 			var dataReference = Firestore.SharedInstance.GetDocument ($"notes_app/{user.Uid}");
 			var snapshot = await dataReference.GetDocumentAsync ();
